@@ -1843,10 +1843,13 @@ input.field {
 }
 
 .logo {
+    text-align:center;
+    display:block;
   margin: 0;
+    vertical-align: middle
   margin-left: auto;
   margin-right: auto;
-    background: url(../img/transparent%20logo.png)
+    background: url(../img/transparent%20logo.png) 50% 60% no repeat;
 }
   .logo > svg {
     display: inline-block;
@@ -1857,7 +1860,7 @@ input.field {
     transition: all .5s; }
 
 .banner {
-  background: url(../img/Background%20photo%202.jpeg) 50% 50% no-repeat;
+  background: url(../img/Background%20photo%202.jpeg) 50% 75% no-repeat;
   background-size: cover;
   color: black; }
 
@@ -2261,7 +2264,7 @@ input.field {
 .empower{
           font-size: 18px;
     color:floralwhite;
-    background-color: #afff4f
+    background-color: #12e547
       }
 .contact-list {
   list-style: none;
