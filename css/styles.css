@@ -1845,7 +1845,9 @@ input.field {
 .logo {
   margin: 0;
   margin-left: auto;
-  margin-right: auto; }
+  margin-right: auto;
+    background: url(../img/transparent%20logo.png)
+}
   .logo > svg {
     display: inline-block;
     max-width: 100%; }
